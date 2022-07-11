@@ -11,4 +11,6 @@ player.getVideoTitle().then(function(title) {
     console.log('title:', title);
 });
 
-
+player.on('timeupdate', function(data) {
+    // data is an object containing properties specific to that event
+});
